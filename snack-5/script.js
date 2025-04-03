@@ -10,6 +10,6 @@ const nums = [2, 8, 4, 7, 12, 87];
 // }
 // console.log(nums);`
 const newNums = nums.filter((num)=> {
-    return num % 2 === 0;
+    return num % 2 === 0;//in automatico restituisce true o false
 });
 console.log(newNums);

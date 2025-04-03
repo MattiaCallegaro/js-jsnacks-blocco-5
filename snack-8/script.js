@@ -27,6 +27,6 @@ const students = [
 //   console.log(students[i].class)
 // }`
 const student = students.find((student)=>{
-  return student.class === "3C";
+  return student.name === 'Marco Lanci';
 })
 console.log(student.class);
